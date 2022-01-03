@@ -1,0 +1,19 @@
+<ZSS>
+    <RULE SEL="Container.global[type='separateFile']">
+        <child->
+            <Text>global</Text>
+        </child->
+    </RULE>
+
+    <RULE SEL="Container.localZss">
+        <child->
+            <Text>global zss (should be overridden by local selector)</Text>
+        </child->
+    </RULE>
+
+    <RULE SEL="Container.anInternal1[type='separateFile']">
+        <child->
+            <Text>global an internal 1 (should be overridden)</Text>
+        </child->
+    </RULE>
+</ZSS>

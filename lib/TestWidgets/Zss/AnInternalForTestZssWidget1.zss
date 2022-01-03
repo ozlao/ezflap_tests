@@ -1,0 +1,13 @@
+<ZSS>
+    <RULE SEL="Container.anInternal1[type='separateFile']">
+        <child->
+            <Text>an internal 1</Text>
+        </child->
+    </RULE>
+
+    <RULE SEL="Container.anInternal2[type='separateFile']">
+        <child->
+            <Text>an internal 2 (in internal 1; should be overridden)</Text>
+        </child->
+    </RULE>
+</ZSS>

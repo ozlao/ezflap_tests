@@ -1,0 +1,7 @@
+<ZSS>
+    <RULE SEL="Container.anInternal2[type='separateFile']">
+        <child->
+            <Text>an internal 2</Text>
+        </child->
+    </RULE>
+</ZSS>
