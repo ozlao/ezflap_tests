@@ -5,6 +5,7 @@ import 'package:ezflap_tests/TestWidgets/Attributes/ZShow/TestZShowWidget.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 import 'package:ezflap/ezflap.dart';
+import 'package:ezflap/src/Service/EzflapTester/WidgetTesterExtension/WidgetTesterExtension.dart';
 
 void main() {
 	testWidgets("Attributes - z-if", (WidgetTester tester) async {

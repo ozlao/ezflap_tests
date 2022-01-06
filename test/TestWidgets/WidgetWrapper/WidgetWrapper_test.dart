@@ -4,6 +4,7 @@ import 'package:ezflap_tests/TestWidgets/WidgetWrapper/Sub/Sub.dart';
 import 'package:ezflap_tests/TestWidgets/WidgetWrapper/TestWidgetWrapperWidget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:ezflap/src/Service/EzflapTester/WidgetTesterExtension/WidgetTesterExtension.dart';
 
 class SubState extends MockWidgetStateBase implements ISubState {
 	int getLuckyNumber() {

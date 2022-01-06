@@ -6,6 +6,7 @@ import 'package:flutter_test/flutter_test.dart';
 import '../../Utils/TestUtils.dart';
 
 import 'package:ezflap/ezflap.dart';
+import 'package:ezflap/src/Service/EzflapTester/WidgetTesterExtension/WidgetTesterExtension.dart';
 
 void main() {
 	testWidgets("EzMethod tests", (WidgetTester tester) async {

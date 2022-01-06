@@ -3,6 +3,7 @@ import 'package:ezflap_tests/TestWidgets/Zss/TestZssWidget.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 import 'package:ezflap/ezflap.dart';
+import 'package:ezflap/src/Service/EzflapTester/WidgetTesterExtension/WidgetTesterExtension.dart';
 
 void main() {
 	testWidgets("ZSS tests", (WidgetTester tester) async {

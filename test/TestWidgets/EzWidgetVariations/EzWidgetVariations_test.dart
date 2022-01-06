@@ -8,6 +8,7 @@ import 'package:ezflap_tests/TestWidgets/EzWidgetVariations/MemberZmlAndInitialZ
 import 'package:flutter_test/flutter_test.dart';
 
 import 'package:ezflap/ezflap.dart';
+import 'package:ezflap/src/Service/EzflapTester/WidgetTesterExtension/WidgetTesterExtension.dart';
 
 void main() {
 	testWidgets("EzWidget Variations - member ZML", (WidgetTester tester) async {

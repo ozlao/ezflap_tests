@@ -1,8 +1,7 @@
 
-import 'package:ezflap/ezflap.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:ezflap/src/Service/EzflapTester/WidgetTesterExtension/WidgetTesterExtension.dart';
 
 extension WidgetTesterExtension on WidgetTester {
 	Future<void> tapTextButton() async {
