@@ -7,7 +7,7 @@ part "TestLifecycleWithInitialWidgetWidget.g.dart";
 
 class TestLifecycleWithInitialWidgetWidget extends EzStatefulWidgetBase {
 	@override
-	EzStateBase createState() => TestLifecycleWithInitialWidgetWidgetState();
+	TestLifecycleWithInitialWidgetWidgetState createState() => TestLifecycleWithInitialWidgetWidgetState();
 }
 
 @EzWidget()

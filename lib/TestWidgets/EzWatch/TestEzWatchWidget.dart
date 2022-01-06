@@ -9,7 +9,7 @@ part "TestEzWatchWidget.g.dart";
 
 class TestEzWatchWidget extends EzStatefulWidgetBase {
 	@override
-	EzStateBase createState() => TestEzWatchWidgetState();
+	TestEzWatchWidgetState createState() => TestEzWatchWidgetState();
 }
 
 @EzWidget()

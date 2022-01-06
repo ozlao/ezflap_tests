@@ -7,7 +7,7 @@ part "Page2.g.dart";
 
 class Page2 extends EzStatefulWidgetBase {
 	@override
-	EzStateBase createState() => Page2State();
+	Page2State createState() => Page2State();
 }
 
 @EzWidget()

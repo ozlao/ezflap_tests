@@ -7,7 +7,7 @@ part "TestEzFieldWidget.g.dart";
 
 class TestEzFieldWidget extends EzStatefulWidgetBase {
 	@override
-	EzStateBase createState() => TestEzFieldWidgetState();
+	TestEzFieldWidgetState createState() => TestEzFieldWidgetState();
 }
 
 class MyClass {

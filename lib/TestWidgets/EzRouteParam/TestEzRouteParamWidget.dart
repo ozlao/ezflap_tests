@@ -1,7 +1,6 @@
 
 import 'package:ezflap/ezflap.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:get/get.dart';
 
 part "TestEzRouteParamWidget.g.dart";
@@ -15,7 +14,7 @@ class ArgumentTest {
 
 class TestEzRouteParamWidget extends EzStatefulWidgetBase {
 	@override
-	EzStateBase createState() => TestEzRouteParamWidgetState();
+	TestEzRouteParamWidgetState createState() => TestEzRouteParamWidgetState();
 }
 
 @EzWidget()

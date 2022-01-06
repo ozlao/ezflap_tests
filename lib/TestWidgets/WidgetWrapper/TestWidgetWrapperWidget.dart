@@ -9,7 +9,7 @@ part "TestWidgetWrapperWidget.g.dart";
 
 class TestWidgetWrapperWidget extends EzStatefulWidgetBase {
 	@override
-	EzStateBase createState() => TestWidgetWrapperWidgetState();
+	TestWidgetWrapperWidgetState createState() => TestWidgetWrapperWidgetState();
 }
 
 @EzWidget()

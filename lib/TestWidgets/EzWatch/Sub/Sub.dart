@@ -2,7 +2,6 @@
 import 'package:ezflap/ezflap.dart';
 import 'package:ezflap_tests/TestWidgets/EzRef/Sub/ChildSub/ChildSub.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
 part "Sub.g.dart";
 

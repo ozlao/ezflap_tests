@@ -2,8 +2,6 @@
 import 'package:ezflap_tests/TestWidgets/ZGroup/TestZGroupWidget.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:ezflap/ezflap.dart';
-
 import '../../Utils/TestUtils.dart';
 import 'package:ezflap/src/Service/EzflapTester/WidgetTesterExtension/WidgetTesterExtension.dart';
 

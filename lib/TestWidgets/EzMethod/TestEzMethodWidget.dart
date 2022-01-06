@@ -1,13 +1,12 @@
 
 import 'package:ezflap/ezflap.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
 part "TestEzMethodWidget.g.dart";
 
 class TestEzMethodWidget extends EzStatefulWidgetBase {
 	@override
-	EzStateBase createState() => TestEzMethodWidgetState();
+	TestEzMethodWidgetState createState() => TestEzMethodWidgetState();
 }
 
 @EzWidget()

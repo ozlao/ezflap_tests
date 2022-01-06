@@ -7,7 +7,7 @@ part 'TestZShowWidget.g.dart';
 
 class TestZShowWidget extends EzStatefulWidgetBase {
 	@override
-	EzStateBase createState() => TestZShowWidgetState();
+	TestZShowWidgetState createState() => TestZShowWidgetState();
 }
 
 @EzWidget()

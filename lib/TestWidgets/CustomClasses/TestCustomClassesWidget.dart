@@ -8,7 +8,7 @@ part 'TestCustomClassesWidget.g.dart';
 
 class TestCustomClassesWidget extends EzStatefulWidgetBase {
 	@override
-	EzStateBase createState() => TestCustomClassesWidgetState();
+	TestCustomClassesWidgetState createState() => TestCustomClassesWidgetState();
 }
 
 class MyClass {

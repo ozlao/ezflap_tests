@@ -10,7 +10,7 @@ part "TestInheritanceWidget.g.dart";
 
 class TestInheritanceWidget extends EzStatefulWidgetBase {
 	@override
-	EzStateBase createState() => TestInheritanceWidgetState();
+	TestInheritanceWidgetState createState() => TestInheritanceWidgetState();
 }
 
 @EzWidget(extend: ParentState)

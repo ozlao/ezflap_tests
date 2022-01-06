@@ -11,7 +11,7 @@ part "TestEzReactiveWidget.g.dart";
 
 class TestEzReactiveWidget extends EzStatefulWidgetBase {
 	@override
-	EzStateBase createState() => TestEzReactiveWidgetState();
+	TestEzReactiveWidgetState createState() => TestEzReactiveWidgetState();
 }
 
 @EzWidget()

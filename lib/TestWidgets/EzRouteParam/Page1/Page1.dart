@@ -2,13 +2,12 @@
 import 'package:ezflap/ezflap.dart';
 import 'package:ezflap_tests/TestWidgets/EzRouteParam/TestEzRouteParamWidget.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
 part "Page1.g.dart";
 
 class Page1 extends EzStatefulWidgetBase {
 	@override
-	EzStateBase createState() => Page1State();
+	Page1State createState() => Page1State();
 }
 
 @EzWidget()

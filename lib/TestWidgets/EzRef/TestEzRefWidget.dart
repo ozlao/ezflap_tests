@@ -1,7 +1,6 @@
 
 import 'package:ezflap/ezflap.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:get/get.dart';
 
 import 'Sub/Sub.dart';
@@ -11,7 +10,7 @@ part "TestEzRefWidget.g.dart";
 
 class TestEzRefWidget extends EzStatefulWidgetBase {
 	@override
-	EzStateBase createState() => TestEzRefWidgetState();
+	TestEzRefWidgetState createState() => TestEzRefWidgetState();
 }
 
 @EzWidget()
