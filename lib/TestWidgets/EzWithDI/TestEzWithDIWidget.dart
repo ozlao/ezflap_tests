@@ -12,7 +12,7 @@ part "TestEzWithDIWidget.g.dart";
 
 class TestEzWithDIWidget extends EzStatefulWidgetBase {
 	@override
-	EzStateBase createState() => TestEzWithDIWidgetState();
+	TestEzWithDIWidgetState createState() => TestEzWithDIWidgetState();
 }
 
 @EzWidget()
