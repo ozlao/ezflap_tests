@@ -6,6 +6,8 @@ import 'package:flutter/material.dart';
 part "Page1.g.dart";
 
 class Page1 extends EzStatefulWidgetBase {
+	Page1({ Key? key }) : super(key: key);
+
 	@override
 	Page1State createState() => Page1State();
 }

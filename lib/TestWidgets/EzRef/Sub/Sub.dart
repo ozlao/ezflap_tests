@@ -9,6 +9,8 @@ import 'package:flutter/widgets.dart';
 part "Sub.g.dart";
 
 class Sub extends EzStatefulWidgetBase {
+	Sub({ Key? key }) : super(key: key);
+
 	@override
 	SubState createState() => SubState();
 }

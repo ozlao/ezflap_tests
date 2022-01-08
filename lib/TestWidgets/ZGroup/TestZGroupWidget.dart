@@ -5,6 +5,8 @@ import 'package:flutter/material.dart';
 part "TestZGroupWidget.g.dart";
 
 class TestZGroupWidget extends EzStatefulWidgetBase {
+	TestZGroupWidget({ Key? key }) : super(key: key);
+
 	@override
 	TestZGroupWidgetState createState() => TestZGroupWidgetState();
 }

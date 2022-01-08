@@ -6,6 +6,8 @@ import 'package:flutter/widgets.dart';
 part 'TestSlotsHostedWidget.g.dart';
 
 class TestSlotsHostedWidget extends EzStatefulWidgetBase {
+	TestSlotsHostedWidget({ Key? key }) : super(key: key);
+
 	@override
 	TestSlotsHostedWidgetState createState() => TestSlotsHostedWidgetState();
 }

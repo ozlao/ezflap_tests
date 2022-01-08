@@ -11,6 +11,8 @@ import 'SvcTest/SvcTest_.dart';
 part "TestEzWithDIWidget.g.dart";
 
 class TestEzWithDIWidget extends EzStatefulWidgetBase {
+	TestEzWithDIWidget({ Key? key }) : super(key: key);
+
 	@override
 	TestEzWithDIWidgetState createState() => TestEzWithDIWidgetState();
 }

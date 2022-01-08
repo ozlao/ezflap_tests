@@ -10,6 +10,8 @@ import 'Sub/Sub.dart';
 part "TestEzReactiveWidget.g.dart";
 
 class TestEzReactiveWidget extends EzStatefulWidgetBase {
+	TestEzReactiveWidget({ Key? key }) : super(key: key);
+
 	@override
 	TestEzReactiveWidgetState createState() => TestEzReactiveWidgetState();
 }

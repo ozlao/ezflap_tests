@@ -5,6 +5,8 @@ import 'package:flutter/material.dart';
 part "TestEzMethodWidget.g.dart";
 
 class TestEzMethodWidget extends EzStatefulWidgetBase {
+	TestEzMethodWidget({ Key? key }) : super(key: key);
+
 	@override
 	TestEzMethodWidgetState createState() => TestEzMethodWidgetState();
 }

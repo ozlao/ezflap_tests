@@ -9,6 +9,8 @@ import 'Sub/Sub.dart';
 part "TestEzEmitWidget.g.dart";
 
 class TestEzEmitWidget extends EzStatefulWidgetBase {
+	TestEzEmitWidget({ Key? key }) : super(key: key);
+
 	@override
 	TestEzEmitWidgetState createState() => TestEzEmitWidgetState();
 }

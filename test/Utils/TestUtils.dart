@@ -20,7 +20,7 @@ extension FinderExtension on Finder {
 	}
 }
 
-extension a on CommonFinders {
+extension CommonFindersExtension on CommonFinders {
 	T as<T extends Widget>() {
 		return this.byType(T).as();
 	}

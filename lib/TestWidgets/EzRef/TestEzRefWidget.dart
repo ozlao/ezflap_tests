@@ -9,6 +9,8 @@ import 'Sub2/Sub2.dart';
 part "TestEzRefWidget.g.dart";
 
 class TestEzRefWidget extends EzStatefulWidgetBase {
+	TestEzRefWidget({ Key? key }) : super(key: key);
+
 	@override
 	TestEzRefWidgetState createState() => TestEzRefWidgetState();
 }

@@ -10,6 +10,8 @@ abstract class ISubState {
 }
 
 class Sub extends EzStatefulWidgetBase {
+	Sub({ Key? key }) : super(key: key);
+
 	@override
 	SubState createState() => SubState();
 }

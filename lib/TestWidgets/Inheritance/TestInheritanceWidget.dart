@@ -9,6 +9,8 @@ import 'package:flutter/widgets.dart';
 part "TestInheritanceWidget.g.dart";
 
 class TestInheritanceWidget extends EzStatefulWidgetBase {
+	TestInheritanceWidget({ Key? key }) : super(key: key);
+
 	@override
 	TestInheritanceWidgetState createState() => TestInheritanceWidgetState();
 }

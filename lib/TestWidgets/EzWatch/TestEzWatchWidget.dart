@@ -8,6 +8,8 @@ import 'Sub/Sub.dart';
 part "TestEzWatchWidget.g.dart";
 
 class TestEzWatchWidget extends EzStatefulWidgetBase {
+	TestEzWatchWidget({ Key? key }) : super(key: key);
+
 	@override
 	TestEzWatchWidgetState createState() => TestEzWatchWidgetState();
 }

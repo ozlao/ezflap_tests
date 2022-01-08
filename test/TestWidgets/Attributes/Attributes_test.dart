@@ -86,7 +86,7 @@ void main() {
 		List<String> arrCol = [ "C1", "C2", "C3" ];
 		Map<String, String> map = { "K1": "V1", "K2": "V2", "K3": "V3" };
 
-		var func = (bool odd, bool over10) {
+		void func(bool odd, bool over10) {
 			for (int i = 0; i < 3; i++) {
 				expect(find.text("for1: ${arr[i]}"), findsOneWidget);
 				expect(find.text("for2: idx=${i}, v=${arr[i]}"), findsOneWidget);
@@ -153,7 +153,7 @@ void main() {
 
 				expect(find.text("rxMap6: idx=${i}, key=${map.keys.toList()[i]}, v=${map.values.toList()[i]}"), findsOneWidget);
 			}
-		};
+		}
 
 		func(false, false);
 		await tester.pumpWithSeconds(1); // --> 1

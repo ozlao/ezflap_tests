@@ -8,6 +8,8 @@ import 'Hosted/TestSlotsHostedWidget.dart';
 part 'TestSlotsHostWidget.g.dart';
 
 class TestSlotsHostWidget extends EzStatefulWidgetBase {
+	TestSlotsHostWidget({ Key? key }) : super(key: key);
+
 	@override
 	TestSlotsHostWidgetState createState() => TestSlotsHostWidgetState();
 }

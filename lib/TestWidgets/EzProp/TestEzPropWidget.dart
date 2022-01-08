@@ -8,6 +8,8 @@ import 'Sub/Sub.dart';
 part "TestEzPropWidget.g.dart";
 
 class TestEzPropWidget extends EzStatefulWidgetBase {
+	TestEzPropWidget({ Key? key }) : super(key: key);
+
 	@override
 	TestEzPropWidgetState createState() => TestEzPropWidgetState();
 }

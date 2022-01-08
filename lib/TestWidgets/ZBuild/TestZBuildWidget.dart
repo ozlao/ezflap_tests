@@ -6,6 +6,8 @@ import 'package:flutter/widgets.dart';
 part "TestZBuildWidget.g.dart";
 
 class TestZBuildWidget extends EzStatefulWidgetBase {
+	TestZBuildWidget({ Key? key }) : super(key: key);
+
 	@override
 	TestZBuildWidgetState createState() => TestZBuildWidgetState();
 }

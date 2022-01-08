@@ -6,6 +6,8 @@ import 'package:flutter/widgets.dart';
 part "TestEzFieldWidget.g.dart";
 
 class TestEzFieldWidget extends EzStatefulWidgetBase {
+	TestEzFieldWidget({ Key? key }) : super(key: key);
+
 	@override
 	TestEzFieldWidgetState createState() => TestEzFieldWidgetState();
 }

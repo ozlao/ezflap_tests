@@ -6,6 +6,8 @@ import 'package:flutter/widgets.dart';
 part "TestLifecycleWithInitialWidgetWidget.g.dart";
 
 class TestLifecycleWithInitialWidgetWidget extends EzStatefulWidgetBase {
+	TestLifecycleWithInitialWidgetWidget({ Key? key }) : super(key: key);
+
 	@override
 	TestLifecycleWithInitialWidgetWidgetState createState() => TestLifecycleWithInitialWidgetWidgetState();
 }

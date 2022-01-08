@@ -6,6 +6,8 @@ import 'package:flutter/widgets.dart';
 part "Page2.g.dart";
 
 class Page2 extends EzStatefulWidgetBase {
+	Page2({ Key? key }) : super(key: key);
+
 	@override
 	Page2State createState() => Page2State();
 }

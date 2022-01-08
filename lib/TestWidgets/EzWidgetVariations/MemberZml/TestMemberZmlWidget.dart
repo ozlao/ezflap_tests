@@ -6,6 +6,8 @@ import 'package:flutter/widgets.dart';
 part 'TestMemberZmlWidget.g.dart';
 
 class TestMemberZmlWidget extends EzStatefulWidgetBase {
+	TestMemberZmlWidget({ Key? key }) : super(key: key);
+
 	@override
 	TestMemberZmlWidgetState createState() => TestMemberZmlWidgetState();
 }

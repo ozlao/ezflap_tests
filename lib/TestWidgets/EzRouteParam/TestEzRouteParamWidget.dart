@@ -13,6 +13,8 @@ class ArgumentTest {
 }
 
 class TestEzRouteParamWidget extends EzStatefulWidgetBase {
+	TestEzRouteParamWidget({ Key? key }) : super(key: key);
+
 	@override
 	TestEzRouteParamWidgetState createState() => TestEzRouteParamWidgetState();
 }

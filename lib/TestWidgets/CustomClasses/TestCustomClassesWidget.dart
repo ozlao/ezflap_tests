@@ -7,6 +7,8 @@ import 'package:get/get.dart';
 part 'TestCustomClassesWidget.g.dart';
 
 class TestCustomClassesWidget extends EzStatefulWidgetBase {
+	TestCustomClassesWidget({ Key? key }) : super(key: key);
+
 	@override
 	TestCustomClassesWidgetState createState() => TestCustomClassesWidgetState();
 }

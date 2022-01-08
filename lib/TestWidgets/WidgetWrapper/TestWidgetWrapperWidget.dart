@@ -8,6 +8,8 @@ import 'Sub/Sub.dart';
 part "TestWidgetWrapperWidget.g.dart";
 
 class TestWidgetWrapperWidget extends EzStatefulWidgetBase {
+	TestWidgetWrapperWidget({ Key? key }) : super(key: key);
+
 	@override
 	TestWidgetWrapperWidgetState createState() => TestWidgetWrapperWidgetState();
 }

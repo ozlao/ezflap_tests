@@ -7,6 +7,8 @@ import 'package:get/get.dart';
 part 'TestZForWidget.g.dart';
 
 class TestZForWidget extends EzStatefulWidgetBase {
+	TestZForWidget({ Key? key }) : super(key: key);
+
 	@override
 	TestZForWidgetState createState() => TestZForWidgetState();
 }

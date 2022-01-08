@@ -6,6 +6,8 @@ import 'package:flutter/widgets.dart';
 part 'TestAnnotationZmlAndInitialZmlWidget.g.dart';
 
 class TestAnnotationZmlAndInitialZmlWidget extends EzStatefulWidgetBase {
+	TestAnnotationZmlAndInitialZmlWidget({ Key? key }) : super(key: key);
+
 	@override
 	TestAnnotationZmlAndInitialZmlWidgetState createState() => TestAnnotationZmlAndInitialZmlWidgetState();
 }

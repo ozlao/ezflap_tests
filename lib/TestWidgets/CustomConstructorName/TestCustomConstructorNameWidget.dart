@@ -6,6 +6,8 @@ import 'package:flutter/widgets.dart';
 part 'TestCustomConstructorNameWidget.g.dart';
 
 class TestCustomConstructorNameWidget extends EzStatefulWidgetBase {
+	TestCustomConstructorNameWidget({ Key? key }) : super(key: key);
+
 	@override
 	TestCustomConstructorNameWidgetState createState() => TestCustomConstructorNameWidgetState();
 }

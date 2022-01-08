@@ -5,6 +5,8 @@ import 'package:flutter/material.dart';
 part "TestEzComputedWidget.g.dart";
 
 class TestEzComputedWidget extends EzStatefulWidgetBase {
+	TestEzComputedWidget({ Key? key }) : super(key: key);
+
 	@override
 	TestEzComputedWidgetState createState() => TestEzComputedWidgetState();
 }
